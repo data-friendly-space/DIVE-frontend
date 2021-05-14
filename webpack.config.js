@@ -15,7 +15,6 @@ function getEntrySources(sources) {
   sources.push('webpack/hot/only-dev-server')
   return sources;
 }
-
 module.exports = {
   cache: true,
   devtool: 'source-map',
